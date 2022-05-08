@@ -16,12 +16,7 @@ const PatchPage = () => {
       .then((json) => console.log(json));
   }, []);
 
-  return (
-  <div>
-      {posts.title} {posts.body}
-  </div>
-  
-  );
+  return <div></div>;
 };
 
 export default PatchPage;

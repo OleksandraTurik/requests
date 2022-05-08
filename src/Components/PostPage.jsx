@@ -8,26 +8,19 @@ const PostPage = () => {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        title: 'post page',
-        body: 'test',
+        title: "post page",
+        body: "test",
         userId: 1,
       }),
       headers: {
-        'Content-type': 'application/json; charset=UTF-8',
+        "Content-type": "application/json; charset=UTF-8",
       },
     })
       .then((response) => response.json())
       .then((json) => console.log(json));
   }, []);
 
-
-
-  if (!posts.length) return null;
-  return (
-    <div>
-        {posts.title}  {posts.body}
-    </div>
-  );
+  return <div></div>;
 };
 
 export default PostPage;
