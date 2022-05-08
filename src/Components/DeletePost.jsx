@@ -6,11 +6,7 @@ const DeletePost = () => {
       method: "DELETE",
     });
   }, []);
-  return (
-  <div>
-      
-  </div>
-  );
+  return <div></div>;
 };
 
 export default DeletePost;

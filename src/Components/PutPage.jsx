@@ -4,7 +4,7 @@ const PutPage = () => {
     const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/posts/1", {
+    fetch("https://jsonplaceholder.typicode.com/posts/2", {
       method: "PUT",
       body: JSON.stringify({
         userId: 1,
